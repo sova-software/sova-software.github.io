@@ -1,6 +1,7 @@
 
 ul, ol {
     list-style-position: inside;
+    list-style-type: none;
 }
 
 body {
@@ -12,6 +13,10 @@ body {
 li {
     font-size: 18px;
     font-weight: 700;
+}
+/* Uses vh and vm with calc */
+@media screen and (min-width: 25em){
+    html { font-size: calc( 8px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
 }
 hr { background-color: lightgray; height: 1px; border: 0; }
 #first {

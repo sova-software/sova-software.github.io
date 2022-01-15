@@ -1,7 +1,6 @@
 
 ul, ol {
     list-style-position: inside;
-    
 }
 
 body {
@@ -19,6 +18,7 @@ hr { background-color: lightgray; height: 1px; border: 0; }
     background-color: black;
     color: white;   
     padding: 10px;
+    width: 100%;
     size: 20px;
     font-size: 20px;
     text-align: left;
@@ -32,28 +32,6 @@ nav {
     width: 100%;
     padding: 10px;
     text-align: center;
-}
-#stranici li {
-    list-style-type: none;
-    font-weight: lighter;
-}
-#stranici a {
-    text-decoration: none;
-    color: #A7A6A9;
-}
-#stranici:hover {
-    text-decoration: none;
-    color: #A7A6A9;
-}
-#kontakti li {
-    list-style-type: none;
-    font-weight: lighter;
-    text-decoration: none;
-    color: #A7A6A9;
-}
-#kontakti:hover {
-    text-decoration: none;
-    color: #A7A6A9;
 }
 footer {
     background-color: #202324;
@@ -69,19 +47,6 @@ nav a:hover {
 footer a:hover {
     color: white;
     text-decoration: none;
-}
-.grid-container {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-}
-img {
-    border-radius: 30px;
-    padding: 15px;
-}
-.footer-additional-information-wrapper {
-    width: 100%;
-    max-width: 1200px;
-    padding: 8px 15px 32px;
 }
 nav a {
     display:inline;
